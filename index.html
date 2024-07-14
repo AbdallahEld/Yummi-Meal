@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./css/imgs/logo.png" type="image/png">
+    <title>Yummy</title>
+</head>
+<body>
+    <div class="loading bg-black justify-content-center align-items-center">
+        <span class="loader"></span>
+    </div>
+    <nav class="side-nav d-flex">
+        <div class="nav-menu mt-3 d-flex flex-column justify-content-between">
+            <div class="mx-2 overflow-hidden">
+                <a href="#" id="search">Search</a>
+                <a href="#" id="categories">Categories</a>
+                <a href="#" id="area">Area</a>
+                <a href="#" id="ingredients">Ingredients</a>
+                <a href="#" id="contactUs">Contact Us</a>
+            </div>
+            <div class="copyright mx-2 mb-3">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>Copyright Â© 2019 All Rights
+                    Reserved.</p>
+            </div>
+        </div>
+        <div class="nav-opener d-flex flex-column justify-content-between text-center py-3 px-2">
+            <img src="./css/imgs/logo.png" alt="">
+            <i class="fa-solid fa-sliders" id="navBtn"></i>
+            <div class="d-flex flex-column">
+                <i class="fa-solid fa-globe my-1"></i>
+                <i class="fa-solid fa-share-nodes my-1"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="inputs" class="py-2">
+        <div class="container">
+            <div class="row" id="place-input">
+            </div>
+        </div>
+    </section>
+    <section id="content">
+        <div class="container py-5">
+            <div class="row gy-4" id="data">
+            </div>
+        </div>
+    </section>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
